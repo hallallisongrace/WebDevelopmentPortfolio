@@ -10123,10 +10123,14 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: url('BW.png');
   background-size: contain;
   transition: opacity 0.25s ease;
   text-align: center;
+}
+
+#Gentillesse{
+  background: url('BW.png');
+  
 }
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
