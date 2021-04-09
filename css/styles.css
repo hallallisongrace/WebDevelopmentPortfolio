@@ -2393,7 +2393,9 @@ textarea.form-control {
     margin-bottom: 0;
   }
 }
-
+span i{
+  transform: scale(2.0);
+}
 .btn {
   display: inline-block;
   font-weight: 400;
