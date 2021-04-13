@@ -10139,9 +10139,14 @@ header.masthead h1 {
   background: url('BW.png');
   
 }
+.portfolio-box{
+  background-image: url(../assets/img/portfolio/fullsize/2.png);
+  background-repeat: no-repeat;
+}
 
 #AboutMe{
    background: url('BW2.png');
+   background-repeat: no-repeat;
 }
 
 
@@ -10181,3 +10186,4 @@ header.masthead h1 {
 .subheading{
   color: #6c757d;
 }
+
