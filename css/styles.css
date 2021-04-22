@@ -10082,7 +10082,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/flowers.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/flowers.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10189,19 +10189,24 @@ div.project-name:hover {
   color: #6c757d;
 }
 
-#madLib{
-  background: url(../assets/portfolio/fullsize/3.png);
-  background-size: cover;
+.card-body{
+  background: #faebd7 !important;
+  
 }
-#drumKit{
-  background: url(../assets/portfolio/fullsize/2.png);
-  background-size: cover;
+
+
+
+.card-img{
+  transition: filter .2s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  
 }
-#aboutMe{
-  background: url(../assets/portfolio/fullsize/4.png);
-  background-size: cover;
+
+.card-img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  opacity: 0.8;
 }
-#gent{
-  background: url(../assets/portfolio/fullsize/1.png);
-  background-size: cover;
-}
+
+
