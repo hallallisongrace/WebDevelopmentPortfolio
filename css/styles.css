@@ -10233,3 +10233,7 @@ div#quote-box.row.no-gutters {
 img.card-img {
   height: 375px;
 }
+
+.card-body{
+  height: 170px
+}
